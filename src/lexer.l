@@ -67,9 +67,6 @@ T		{position += yyleng ; return TIME ;}
 "%{"            {position += yyleng ; return STARTSTATEBLOCK ; }
 "}%"            {position += yyleng ; return ENDSTATEBLOCK ; }
 
-"&{"            {position += yyleng ; return STARTLIMITEDSTATEBLOCK ; }
-"}&"            {position += yyleng ; return ENDLIMITEDSTATEBLOCK ; }
-
 [\{]                    {position += 1 ;PushSymbolTable() ; return yytext[0] ; }
 [\}]                    {position += 1 ;PopSymbolTable() ; return yytext[0] ; }
 

@@ -6,7 +6,6 @@
 
 %token TYPE VAR FUNCNAME NUMBER MEMBER MEMBERFUNC
 %token IMPORT STARTSTATEBLOCK ENDSTATEBLOCK
-%token STARTLIMITEDSTATEBLOCK ENDLIMITEDSTATEBLOCK
 %token IF ELSE FOR WHILE BREAK OBJECT RETURN TIME 
 %token BASISFUNC COMPARISON UMINUS
 %token STRING QSTRING CIRCUMFLEX
@@ -64,7 +63,7 @@ control_statement:
 
 block_statement:
           STARTSTATEBLOCK control_statement_list ENDSTATEBLOCK
-	| '(' stateclass_list ')' STARTLIMITEDSTATEBLOCK control_statement_list ENDLIMITEDSTATEBLOCK
+	| '%' '(' stateclass_list ')' '{' control_statement_list ENDSTATEBLOCK
         | '{' control_statement_list '}'
 	;
 
@@ -97,6 +96,7 @@ arrayspec:
 	;
 
 basisspec:
+	  STRING
 	;
 
 initspec:
@@ -130,7 +130,7 @@ field_list:
 field:       	  
 	  TYPE arrayspec STRING  ';'
 	| TYPE STRING ';'
-	| TYPE STRING '(' param_list ')' '{' control_statement_list '}'
+	| TYPE STRING '(' param_list ')' block_statement
 	;
  
 if_statement:	  
@@ -182,6 +182,7 @@ expression:
 	| NUMBER 
 	| TIME
 	| QSTRING /*Mainlt here just to allow filename passing*/
+	| STRING /* Catch errors */
 	;
 
 explist: 	  

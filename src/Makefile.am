@@ -1,4 +1,6 @@
 bin_PROGRAMS = pedal
+AM_YFLAGS=-d
+
 pedal_SOURCES = \
 	nodestructures.h \
 	parsepdl.c \
