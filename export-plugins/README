@@ -1,0 +1,45 @@
+				 Export-Plugins
+				 ==============
+
+  OK, this stuff is even vager than the primtives stuff....
+
+  These act tact the producers of the output code, and are very very heavy.
+They are notified about changes in the current scene state (not sure on how
+to represent this ATM), and should respond by eg eincluding a new object
+relative to current state or some otehr action.
+
+  Also the state informaion will include motion information, by specifiying
+that a change in state occurs over a given time interval. There will be
+several intervals per frame.
+
+  The only clear thing that I can say hear is that the state and motion 
+information will be heavily geared toward renderman. Enough information
+will be provided for any implementation, but in a renderman flavour.
+An export filter will therefore , in many ways, be a conversion from
+renderman to the native format of the plugin.
+
+  This should be OK for similarly state driven systems, such as OpenGL,
+but may be more tricky for other systems such as POV, these system may
+need to maintiain a large amount of state information before they
+can generate a scene. I should proably design a mechanism to allow access
+to the history of the system state, or perhaps even direct acces to
+the parsetree.
+
+  There is probably a resonable middle ground here, some kind of time line
+(proabbly tree due to motion info) which marks the change of state, and the
+values.
+
+  Like I say, all this is unclear. Until I have the parser back up and
+running with the new parsetree there is little I can do here anyway, I wont
+be getting rid of the parsetree.
+
+  Incidentally, I have not ruled out the possibility of bringing the old
+ICode system back into play, this could potentially allow me to use
+the the 'out' icode command, to provide an extremely brutal interface
+for the exporters, e.g. essentially, heres the object be outputted,
+do your thing. (the state pushing and popping commands will also have
+to be passed).
+
+  This would be by far the easiest method, though i cant imagine it would
+be too nice to develope for.
+

@@ -1,0 +1,45 @@
+			       Primitive filters
+			       =================
+
+  OK, this stuff is vague...
+
+  CUrrent thinking says that thes files (which will be dlls) fall into 
+essentially 2 cateories.
+
+  The first is as a support library to supply all the primitives required
+by a given export-plugin, for instance the RIB exporter will require
+all the RIB prims, like RiCylnder (aka cylinder), also lights and shaders
+are considered primitives. The pov exporter will have a different set.
+
+  The exact handling of this is unclear ATM, it is important that a
+certain number of BASE primitives exist, and that a primitive that is
+not supported by a given export-plugin should be handled gracefully.
+e.g. the POV exporter is going to need to ignore any shader prims, it
+should be possible for an export-plugin to request an alternative
+representation of a prim, this representation should be negotiated
+between the export-plugin , the type repository  and the functions for
+handling the type. An example would be that it should be possible for
+POV to request an alternate representation of a RiCylinder, this
+would probably end up arriving in the form of a polygon boundary
+representation, though it should be possible for other reps to be 
+requested.
+
+  It would be down to the primtive developer to specify which primitives
+it can convert a cylinder to. Perhaps the export-plugin selects the first
+one it know about (which will probably be polygons 9 times out of ten).
+
+  The second kind of primitive library adds support for new levels of
+abstraction, the example allows importing of autocad DXF files.
+
+  Although they have slighlty different purposes , these two kinds of 
+library are written in exactly the same way. 
+
+  I am currently unclear as to the best way to have the user specify 
+which primtiive libraries are to be used, whilst a runtime querying
+of all libraries would seem nice, I think it would be better to 
+have them specifiec along witht he other options, in either an rc file
+or the command line.
+
+
+
+

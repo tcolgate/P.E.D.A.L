@@ -1,0 +1,2162 @@
+##RenderMan RIB-Structure 1.0
+##CreationDate Wed Mar 24 01:41:36 1999
+FrameBegin 0
+Display "frame0000.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 1
+Display "frame0001.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 2
+Display "frame0002.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 3
+Display "frame0003.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 4
+Display "frame0004.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 5
+Display "frame0005.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 6
+Display "frame0006.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 7
+Display "frame0007.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 8
+Display "frame0008.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 9
+Display "frame0009.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 10
+Display "frame0010.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 11
+Display "frame0011.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 12
+Display "frame0012.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 13
+Display "frame0013.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 14
+Display "frame0014.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 15
+Display "frame0015.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 16
+Display "frame0016.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 17
+Display "frame0017.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 18
+Display "frame0018.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 19
+Display "frame0019.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 20
+Display "frame0020.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 21
+Display "frame0021.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 22
+Display "frame0022.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 23
+Display "frame0023.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 24
+Display "frame0024.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 25
+Display "frame0025.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 26
+Display "frame0026.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 27
+Display "frame0027.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 28
+Display "frame0028.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 29
+Display "frame0029.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 30
+Display "frame0030.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 31
+Display "frame0031.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 32
+Display "frame0032.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 33
+Display "frame0033.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 34
+Display "frame0034.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 35
+Display "frame0035.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 36
+Display "frame0036.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 37
+Display "frame0037.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 38
+Display "frame0038.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 39
+Display "frame0039.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 40
+Display "frame0040.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 41
+Display "frame0041.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 42
+Display "frame0042.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 43
+Display "frame0043.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 44
+Display "frame0044.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 45
+Display "frame0045.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 46
+Display "frame0046.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 47
+Display "frame0047.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 48
+Display "frame0048.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 49
+Display "frame0049.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 50
+Display "frame0050.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 51
+Display "frame0051.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 52
+Display "frame0052.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 53
+Display "frame0053.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 54
+Display "frame0054.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 55
+Display "frame0055.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 56
+Display "frame0056.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 57
+Display "frame0057.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 58
+Display "frame0058.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 59
+Display "frame0059.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 60
+Display "frame0060.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 61
+Display "frame0061.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 62
+Display "frame0062.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 63
+Display "frame0063.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 64
+Display "frame0064.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 65
+Display "frame0065.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 66
+Display "frame0066.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 67
+Display "frame0067.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 68
+Display "frame0068.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 69
+Display "frame0069.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 70
+Display "frame0070.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 71
+Display "frame0071.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 72
+Display "frame0072.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 73
+Display "frame0073.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 74
+Display "frame0074.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 75
+Display "frame0075.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 76
+Display "frame0076.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 77
+Display "frame0077.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 78
+Display "frame0078.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 79
+Display "frame0079.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 80
+Display "frame0080.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 81
+Display "frame0081.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 82
+Display "frame0082.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 83
+Display "frame0083.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 84
+Display "frame0084.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 85
+Display "frame0085.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 86
+Display "frame0086.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 87
+Display "frame0087.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 88
+Display "frame0088.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 89
+Display "frame0089.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 90
+Display "frame0090.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 91
+Display "frame0091.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 92
+Display "frame0092.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 93
+Display "frame0093.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 94
+Display "frame0094.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 95
+Display "frame0095.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 96
+Display "frame0096.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 97
+Display "frame0097.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 98
+Display "frame0098.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 99
+Display "frame0099.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 100
+Display "frame0100.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 101
+Display "frame0101.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 102
+Display "frame0102.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 103
+Display "frame0103.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 104
+Display "frame0104.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 105
+Display "frame0105.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 106
+Display "frame0106.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 107
+Display "frame0107.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 108
+Display "frame0108.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 109
+Display "frame0109.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 110
+Display "frame0110.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 111
+Display "frame0111.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 112
+Display "frame0112.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 113
+Display "frame0113.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 114
+Display "frame0114.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 115
+Display "frame0115.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 116
+Display "frame0116.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 117
+Display "frame0117.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 118
+Display "frame0118.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 119
+Display "frame0119.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 120
+Display "frame0120.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 121
+Display "frame0121.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 122
+Display "frame0122.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 123
+Display "frame0123.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 124
+Display "frame0124.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 125
+Display "frame0125.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 126
+Display "frame0126.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 127
+Display "frame0127.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 128
+Display "frame0128.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 129
+Display "frame0129.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 130
+Display "frame0130.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 131
+Display "frame0131.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 132
+Display "frame0132.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 133
+Display "frame0133.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 134
+Display "frame0134.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 135
+Display "frame0135.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 136
+Display "frame0136.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 137
+Display "frame0137.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 138
+Display "frame0138.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 139
+Display "frame0139.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 140
+Display "frame0140.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 141
+Display "frame0141.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 142
+Display "frame0142.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 143
+Display "frame0143.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 144
+Display "frame0144.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 145
+Display "frame0145.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 146
+Display "frame0146.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 147
+Display "frame0147.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 148
+Display "frame0148.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 149
+Display "frame0149.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 150
+Display "frame0150.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 151
+Display "frame0151.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 152
+Display "frame0152.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 153
+Display "frame0153.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 154
+Display "frame0154.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 155
+Display "frame0155.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 156
+Display "frame0156.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 157
+Display "frame0157.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 158
+Display "frame0158.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 159
+Display "frame0159.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 160
+Display "frame0160.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 161
+Display "frame0161.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 162
+Display "frame0162.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 163
+Display "frame0163.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 164
+Display "frame0164.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 165
+Display "frame0165.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 166
+Display "frame0166.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 167
+Display "frame0167.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 168
+Display "frame0168.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 169
+Display "frame0169.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 170
+Display "frame0170.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 171
+Display "frame0171.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 172
+Display "frame0172.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 173
+Display "frame0173.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 174
+Display "frame0174.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 175
+Display "frame0175.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 176
+Display "frame0176.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 177
+Display "frame0177.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 178
+Display "frame0178.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 179
+Display "frame0179.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 180
+Display "frame0180.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 181
+Display "frame0181.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 182
+Display "frame0182.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 183
+Display "frame0183.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 184
+Display "frame0184.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 185
+Display "frame0185.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 186
+Display "frame0186.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 187
+Display "frame0187.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 188
+Display "frame0188.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 189
+Display "frame0189.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 190
+Display "frame0190.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 191
+Display "frame0191.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 192
+Display "frame0192.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 193
+Display "frame0193.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 194
+Display "frame0194.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 195
+Display "frame0195.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 196
+Display "frame0196.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 197
+Display "frame0197.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 198
+Display "frame0198.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 199
+Display "frame0199.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 200
+Display "frame0200.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 201
+Display "frame0201.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 202
+Display "frame0202.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 203
+Display "frame0203.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 204
+Display "frame0204.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 205
+Display "frame0205.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 206
+Display "frame0206.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 207
+Display "frame0207.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 208
+Display "frame0208.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 209
+Display "frame0209.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 210
+Display "frame0210.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 211
+Display "frame0211.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 212
+Display "frame0212.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 213
+Display "frame0213.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 214
+Display "frame0214.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 215
+Display "frame0215.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 216
+Display "frame0216.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 217
+Display "frame0217.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 218
+Display "frame0218.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 219
+Display "frame0219.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 220
+Display "frame0220.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 221
+Display "frame0221.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 222
+Display "frame0222.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 223
+Display "frame0223.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 224
+Display "frame0224.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 225
+Display "frame0225.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 226
+Display "frame0226.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 227
+Display "frame0227.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 228
+Display "frame0228.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 229
+Display "frame0229.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 230
+Display "frame0230.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 231
+Display "frame0231.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 232
+Display "frame0232.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 233
+Display "frame0233.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 234
+Display "frame0234.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 235
+Display "frame0235.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 236
+Display "frame0236.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 237
+Display "frame0237.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 238
+Display "frame0238.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd
+FrameBegin 239
+Display "frame0239.tif" "file" "rgb"
+Projection "perspective"  "fov" 23
+LightSource "distantlight" 1  "intensity" 0.75  "from"  [ 1 1 1 ]  "to"  [ 0 0 0 ]  "lightcolor"  [ 1 1 1 ]
+LightSource "ambientlight" 2  "intensity" 0.3
+WorldBegin
+Cylinder 0.100000 0.000000 0.500000 360.000000 
+WorldEnd
+FrameEnd

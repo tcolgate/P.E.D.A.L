@@ -1,0 +1,173 @@
+
+				P.E.D.A.L.
+				==========
+
+A few notes on the implementation of motion blur.
+-------------------------------------------------
+  For the intial work on pedal I ignored the possibility of motion blur
+since intially I could not think of a method for including the blurring
+information in the final RIB output as I was only ever dealing with 
+one value of time (T) at once, and RIB requires all information about motion
+to be in one place in the description of a fram, it will not analyze other
+frames to do blurring (which is fair since there is no sensible way of
+doing this.)
+
+  Since then I have learnt alot more about RenderMans handling of motion, 
+and now that the scope of pedal has been extended to cover the possiblilty
+of an abitrary output format, I felt that not only do I have to include
+motion blur (I do after all intend pedal to be viable in a serious graphics
+project), but that I should do it in as RenderMan indepenet a way as possible.
+
+  The technique described below is just my prelimiary idea for a method of
+handling motion, and is based influenced quite heavily by renderman, but it
+should be possible to extend this to provide the motion information in 
+a generic manner to pass to the output filters.
+
+  Another requirement is that the technique should not require any 
+extension to the language, the technique presented fullfills this
+requirement.
+
+A (Potentially Adaptive) Supersampling Technique.   
+-------------------------------------------------
+  By specifying a number of motion samples on the command line, the user
+can introduce motion blur into the systame. This is achieved internally
+by having all elements on the PDO Machines stack to have n+1 samples
+(n being the number specified on the command line), every time a frame
+is processed all expression are evaluated for n intermediate values of 
+time in this frame.
+
+  Whenever a item is anchored to the scene, the variation of the items 
+values (all fields, and elements) accross these samples is analysed, and
+if there is any deviation it is included in the final scene.
+
+  It should also be possible to perform some kind of statistical analysis 
+of values as they are calculated, and if the deviation between values is 
+concidered quite high, further samples could be created. IF YOU ARE 
+MATHAMATICALLY INCLINED AND ARE INTERESTED IN HELPING WITH THIS PLEASE
+CONTACT ME, MY KNOWLEDGE OF STATISTICS IS ALMOST NON-EXISTANT.
+
+  This technique would allow the user to specify a minimum number of 
+samples, and potentially some kind of maximum (or a maximum proportional
+deviation of values (that is to say if X varies by less that Y% then
+supersample it).
+
+  This would also imply that each stackelement must not only store the
+number of samples, but must also store the time they occured, and that
+when an expression is evaluated, ALL time intervals must be evaluated,
+this would either imply some kind of backtracking to calculate intermediate
+values in an expression that do not exist, or the interpolation of intermediate
+values that are present to approximate values which are not present.
+
+  All these techniques increae the calculation overhead drastically (hence 
+the concpet of 0 motion blur (probably -n0 must be kept), but would provide
+an extrememly valuable feature without the requirement of the user including 
+any information about motion in the script other than in the same manner as
+has been done in pedal-0.1, eg by including T  (time) in expression. 
+
+  Graphics Gems 5 section 4.4 has an article on Adaptive Sampling of Parametric
+curves. This is a recursive technique, and may be quite slow, but produces
+only two points if the 'curve is linear, which should allow it to take place
+on ALL values.
+
+Expression T-Dependance - Potential solutions.
+-------------------------------------------------
+  [NOTE - The points outlined in here would seem to be connected with 
+   data-flow in normal compiler terms, I have zero experience in this
+   , I am doing the research, but if you have any suggestions, please
+   mail me]
+
+  Th notions outlined above present some interesting challenges to ensure 
+continuity when a conditional statemenet evaluates differently at each end
+of the current timespan.
+
+  In order to begin discussing this I have created a gloriously over the top
+tem, T-Sependence, to define if a given expression is , at some point during
+its life (up to the statement in question), dependant on the variable T.
+This is fairly easy to determine during parsing, any expression havong one or
+more T-dependant terms, is marked as T-dependant, and any variable assigbed
+to from a T dependant expression is marked as dependant. (NOTE - Its probably
+best if regions of the parse tree can be marked as dependat, we could then
+have a facility to unmark variables later on, should they be assigned 
+from a non-dependant expression).
+
+  OK, so now thats out the way, you are probably sasing what the problem is.
+The problem, as I see it is this, if I use a conditional expression in my
+code, there is a possibility that the current timespan that is being
+considered (the start and end Values of T), might cause that condition to 
+evaluate differently at either end of the timespan, or potentially evaluate
+different;y int the middle of this time span. Some measures must be taken to
+ensure that we deal with this situation, and from my initial thinking, this
+isnt trivial.
+
+  So, my thinking has lead me to two possible methods of dealing with this 
+problem, both are going to require some rather funky maths at some point.
+The distinguishing factor between the two techniques is that one is 
+'compile-time', the other is 'run-time'.
+
+  The compile time version, basically involves us determining the boundary 
+value of T that causes a condition to be true or false (thats where the
+T-Dependace, and funky maths comes in), and ensure that we use this
+value as the end point of a span later on, eg:
+
+if(T>3.5){
+  ...do A
+} else {
+  ...do B
+} 
+
+  [in this case analysing the condition is trivial, our boundary is 3.5]
+  when note that T=3.5 must be used as a boundary value of T, then when 
+generating our output, we make sure that our timespan generating stuff takes
+note of this.
+
+  The 'run-time' technique, I am less clear on, but it occurs to me that 
+the compile time one is non-trivia, as we a) may potentially have an absolute
+shitload of possible boundaries in any non-trivial script, and b) since we
+want to be able to store these in an 'object' file, they must be independant
+of hte intervals being used to generate an scene, this causes problems with
+cyclic function like sin,(we cant just store values of T, we would have to
+store expression in T).
+
+  Anyway, back to the 'runtime' solution. Basically we say that if we have
+reached a node in the parsetree which involves some kind of condition, we 
+test to see if there are any boundary problems with this expression. 
+If some problem exists, we can backtrack dow the tree to some suitable
+point (hmmm, not sure how to define 'suitable' ATM), and fork the traversal
+into two seperate paths, dividing the previous time span at the problem 
+boundary valur of T). [This is really really sketchy, but I hope you get the 
+general idea].
+
+  Problesm here really only seem to be speed related, though its hard to
+consider fully since I am very unclear on the backtrracking bit.
+
+  It strikes me that the 'compile-time' solution could infact be used as a
+pre-'run-time' pass to generate our T intervals, so perhaps a hybrid of both
+techniques is suitable.
+
+  Since this stuff is a fair way off I hae decided to concentrate on including
+T-Dependance in the structure for the syntax tree, but not to delve too much
+further into this until I have a suitbale p[latform to test ideas on.
+
+Possible IDE/Editor Hooks
+-------------------------
+  This is mostly just an aside so as I dont forget when I am working on 
+the syntax tree stuff. A friend (Rajit Singh <singhr@dcs.kcl.ac.uk> has
+expressed excitement over the possibility for writing an editor that would
+allow on the fly previewing, whilst I am still uncertain of the feasability
+of this it did give me some idea.
+
+  The main one was to include file, linenumber and offset information into
+the parsetree, my main interest here is in more accurate error reporting
+(especially for type checking, which will mostly be 'run-time').
+  [to cut down on rendundancy this info could be stored incrementally
+   eg, only the info that changes with respect to the parent node should
+   be stored.]
+
+  This does however present the possibility of modifying the parse tree
+as code is editted (kind of incremental compilation IYSWIM), whilest
+its non-trivial, its certainly possible. I understand that markup 
+languages are more suited to this approach, but Pedal has some features
+of markup (its very easy to identify what code actyally produces something).
+Remeber this is only me thinking out loud, if you think this is insane by all
+means tell me.
+

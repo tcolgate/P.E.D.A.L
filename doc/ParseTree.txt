@@ -1,0 +1,91 @@
+				 The Parse Tree
+				 ==============
+Background
+----------
+
+  The early version of Pedal did not follow the standard methods of compiling, 
+Due to the original time constraints the first version generated a stack
+oriented instruction sequence directly from the parser, whilst the approach
+wrked well for the original version it has very obvious limitations and it did
+not scale well with my future plans for pedal.
+
+  I have decided to implement a more formal method for the new version, which
+should scale considerably better with the developement of the language.
+
+Some decisions
+--------------
+
+  I have some very difficult decision ahead of me that will define the exact
+nature of the psrae tree, these decisions mainly concern at which point various
+semantic information is taken into account.
+
+  The most obvious example of this is with bariable names. Originally the
+parser would pick up on symbol declaration , this information was effectively
+fed back to the lexer which would allow the lexer to reconise symbols and
+inform the parser immediately, this simplifies the grammar quite alot.
+
+  This doesnt quite seem to fit perfectly into a parse tree model, it would
+seem to make more sense to simply call any 'string' a symbol, then in the
+process of navigating the parse tree could declare symbols and point out any
+symbols along its path that have not been declared, I am not sure that I like
+this idea. Things become even more complicated when member variables and
+functions must be taken into account.
+
+Potentially appliable techniques
+--------------------------------
+
+  Assuming that the implementation problems can be sorted, there are many many
+potential powerful techniques that could be used. Optimisation of the parse
+tree becomes possible, as do other data flow techniques. The tree also presents
+a nice platform for solving the problems outlined in the Motion documentation.
+
+  The handling of import statements is affected, though not drastically. The
+parse tree for the module being imported can be grafted onto the current tree,
+its declaration nodes passed, and parsing of the current file could continue.
+ 
+Is there still a place for intermediate code?
+---------------------------------------------
+
+  Yet another question that is puzzling me at the moment is in regard to saving
+parsed scripts in an object file format, this is almost certainyl a
+requiremnet, since it allows for better performave, secuirty and a more robust
+approach to reusability. Yet saving out the parse tree seems to raise some
+serious problems. This begs th quesstion as to whether a compiled intermediate
+code still has its place. It was certainly very effective in the earlier
+versions, but does have some apparently showstopping limitations.
+
+  These include the difficulties involved in storing object definitons and
+function names (particularly function parameter defaults) and other data which
+is part of the interface to a module (meaning a script which may present new
+objeccst).
+
+  Name mangling could solve some of these problems, I did develope a technique
+for maintaingin function paramateter defaults by effectively using a vector
+table at the start of a function declaration which gave the location of code
+snippets to provide the defaults, the details of my thinking escape me, but the
+gist of it should follow...
+
+	label mangled_func_name
+	jmp [past the defaults]
+	jmp [to code for first default]        # param 1
+	ret [if this parm has no default]      # param 2
+	....
+	[code for param 1]
+	ret
+	.....
+	Actual code for functions.
+
+  This particular method is not sufficient for a robust handling (there are
+alot of obvious problems with it, I spotted alot whilst typing the darned
+thing_), but perhaps with some instruction to more directly support such a
+technique, and a bit of thaught, its could be developed to deal with defaults
+quite nicely.
+
+  I think a more efficient and versatile approach would be to develope a method
+of ffectively serialising the parsetree.
+
+  If the project ever gets to a point whereby people actually use it, an
+intermediate code system would prove invaluable in actually runnning a script.
+Navigating the parse tree would not be exactly slow, but it would be alot
+slowert than running a series of commands.
+

@@ -1,0 +1,304 @@
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+flatten 7 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+push val 
+push val 
+push val 
+push val 
+push val 
+flatten 5 
+flatten 7 
+push val 
+push val 
+ref g 2 
+push 5 
+assign  
+pop  
+ref g 2 
+deref  
+jpz 40 
+ref g 3 
+push 7 
+assign  
+pop  
+ref g 3 
+deref  
+jpz 24 
+ref g 0 
+ref g 3 
+deref  
+push 1 
+sub  
+indx  
+ref g 2 
+deref  
+push 1 
+sub  
+indx  
+ref g 3 
+deref  
+assign  
+pop  
+#  
+ref g 3 
+ref g 3 
+deref  
+push 1 
+sub  
+assign  
+pop  
+jmp -27 
+#  
+ref g 2 
+ref g 2 
+deref  
+push 1 
+sub  
+assign  
+pop  
+jmp -43 
+ref g 0 
+push 0 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 0 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 0 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 0 
+indx  
+push 3 
+indx  
+deref  
+ref g 0 
+push 1 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 1 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 1 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 1 
+indx  
+push 3 
+indx  
+deref  
+ref g 0 
+push 2 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 2 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 2 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 2 
+indx  
+push 3 
+indx  
+deref  
+ref g 0 
+push 3 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 3 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 3 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 3 
+indx  
+push 3 
+indx  
+deref  
+ref g 0 
+push 4 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 4 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 4 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 4 
+indx  
+push 3 
+indx  
+deref  
+ref g 0 
+push 5 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 5 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 5 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 5 
+indx  
+push 3 
+indx  
+deref  
+ref g 0 
+push 6 
+indx  
+push 0 
+indx  
+deref  
+ref g 0 
+push 6 
+indx  
+push 1 
+indx  
+deref  
+ref g 0 
+push 6 
+indx  
+push 2 
+indx  
+deref  
+ref g 0 
+push 6 
+indx  
+push 3 
+indx  
+deref  
+#  

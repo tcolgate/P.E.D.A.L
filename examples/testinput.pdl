@@ -1,0 +1,14 @@
+ # This is a plain text comment with a number in it ... 9
+import 'boxes' ;
+
+# NOTE = The next six lines should be possible in one step
+cylinder cyl1 ;
+
+cyl1.radius = 0.1 ;
+cyl1.zmin = 0 ;
+cyl1.zmax = 0.5 ;
+cyl1.thetamax = 360 ; #These elements could be made time dependant
+
+<cyl1> ; # This is an example of an output expression
+
+
