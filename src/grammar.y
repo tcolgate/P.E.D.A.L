@@ -14,13 +14,13 @@
 /*types*/
 
 /* Precedences */
-%left '='
+%right '='
 %left '-' '+'
 %left '*' '/' '^' '.'
 %left POW
 %nonassoc CAST
 %left ':'
-%right UMINUS
+%nonassoc UMINUS
 
 %%
 
@@ -182,7 +182,6 @@ expression:
 	| NUMBER 
 	| TIME
 	| QSTRING /*Mainlt here just to allow filename passing*/
-	| STRING /* Catching erroes */
 	;
 
 explist: 	  
