@@ -6,9 +6,10 @@
 
 %token TYPE VAR FUNCNAME NUMBER MEMBER MEMBERFUNC
 %token IMPORT STARTSTATEBLOCK ENDSTATEBLOCK
+%token STARTLIMITEDSTATEBLOCK ENDLIMITEDSTATEBLOCK
 %token IF ELSE FOR WHILE BREAK OBJECT RETURN TIME 
-%token SPLINETYPE COMPARISON UMINUS
-%token STRING QSTRING 
+%token BASISFUNC COMPARISON UMINUS
+%token STRING QSTRING CIRCUMFLEX
 
 /*types*/
 
@@ -19,7 +20,7 @@
 %left POW
 %nonassoc CAST
 %left ':'
-%nonassoc UMINUS
+%right UMINUS
 
 %%
 
@@ -63,7 +64,17 @@ control_statement:
 
 block_statement:
           STARTSTATEBLOCK control_statement_list ENDSTATEBLOCK
+	| '(' stateclass_list ')' STARTLIMITEDSTATEBLOCK control_statement_list ENDLIMITEDSTATEBLOCK
         | '{' control_statement_list '}'
+	;
+
+stateclass_list:
+	  state
+	| stateclass_list ',' state
+	;
+
+state:
+	STRING   // exporter specific states
 	;
 
 control_statement_list:
@@ -81,11 +92,11 @@ variable_declaration:
 	;
 
 arrayspec: 
-	  arrayspec '[' NUMBER splinespec ']'
-	| '[' NUMBER splinespec ']'
+	  arrayspec '[' NUMBER basisspec ']'
+	| '[' NUMBER basisspec ']'
 	;
 
-splinespec:
+basisspec:
 	;
 
 initspec:
@@ -103,6 +114,7 @@ param_list:
 param:	
 	  TYPE arrayspec STRING default_spec
 	| TYPE STRING default_spec
+	| CIRCUMFLEX
 	;
 
 default_spec:	  
@@ -150,10 +162,10 @@ lvalue:
 	;
 
 expression:	  
-	  lvalue
-	| lvalue '=' expression
-	| '-' expression %prec UMINUS
+	  '-' expression %prec UMINUS
 	| '+' expression %prec UMINUS
+	| lvalue
+	| lvalue '=' expression
 	| expression '+' expression 
 	| expression '-' expression
 	| expression '*' expression

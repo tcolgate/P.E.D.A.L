@@ -33,6 +33,7 @@ number		(([0-9]+)|([0-9]*\.[0-9]+))
 string 		[a-zA-Z_]+[a-zA-Z0-9_]*
 qstring		'[^'\n]*'
 comment		#.*				
+circumflex	\.\.\.
 
 %%
 
@@ -66,6 +67,9 @@ T		{position += yyleng ; return TIME ;}
 "%{"            {position += yyleng ; return STARTSTATEBLOCK ; }
 "}%"            {position += yyleng ; return ENDSTATEBLOCK ; }
 
+"&{"            {position += yyleng ; return STARTLIMITEDSTATEBLOCK ; }
+"}&"            {position += yyleng ; return ENDLIMITEDSTATEBLOCK ; }
+
 [\{]                    {position += 1 ;PushSymbolTable() ; return yytext[0] ; }
 [\}]                    {position += 1 ;PopSymbolTable() ; return yytext[0] ; }
 
@@ -94,6 +98,9 @@ T		{position += yyleng ; return TIME ;}
 		  position += yyleng ;
 		}
 		
+{circumflex}	{ 
+		  return CIRCUMFLEX ;
+		}
 %%
 
 int
